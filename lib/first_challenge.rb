@@ -13,10 +13,11 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts.each {|flavor| favorite_icecream_flavors.delete(flavor)
 
 
   #remember to return your newly altered contacts hash!
   contacts
+  end
 end
 
