@@ -8,6 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  
+  array_of_array = groceries.values {|categories, items| items}
+  array_of_array.flatten
 
 end
