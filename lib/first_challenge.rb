@@ -13,7 +13,9 @@ def first_challenge
     }
   }
 
-  #your code here
+  contacts["Freddy Mercury"][:favorite_icecream_flavors][0] = "mint chip"
+  
+  
 
 
   #remember to return your newly altered contacts hash!
